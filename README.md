@@ -2,7 +2,6 @@
 携程apollo修改后的安装包（支持windows  linux  docker）
 主要修改docker-compose.yml中  image镜像拉取不到的问题 无此（apollo-quick-start）镜像
 version: '2'
-
 services:
   apollo-quick-start:
     image: nobodyiam/apollo-quick-start
